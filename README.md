@@ -3,7 +3,7 @@
 | ------ | ------ | ----- |
 | Ameya Apte | apte.ame@northeastern.edu | 2764540 | 
 | Sayali Dalvi | dalvi.sa@northeastern.edu | 2799803 |
-| Soeb Hussain | hussin.soe@northeastern.edu | 2747200 | 
+| Soeb Hussain | hussain.soe@northeastern.edu | 2747200 | 
 
 
 
