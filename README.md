@@ -41,3 +41,12 @@ Naming Conventions:
     * metadata: CFA_META_R
     * web scraped data: CFA_WEB_DATA_R
 
+Execution Step for code/CSV2Snowflake.ipynb
+* create a folder in parent directory with name 'config'
+* add .env file in it containing following variables
+   * SNOWFLAKE_USER=''
+   * SNOWFLAKE_PASSWORD=''
+   * SNOWFLAKE_DATABASE='DAMG_7245_CFA_DB'
+   * SNOWFLAKE_WAREHOUSE='DAMG_7245_WH_XS'
+   * SNOWFLAKE_ACCOUNT_IDENTIFIER='' 
+
