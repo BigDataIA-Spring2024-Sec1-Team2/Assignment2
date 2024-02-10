@@ -33,3 +33,11 @@ This project aims to aggregate and make accessible finance professional developm
 3. Configure AWS S3 and Snowflake with the provided setup guide.
 
 
+Naming Conventions: 
+* s3 bucketname: CFA-PDFs
+* snowflake DB: DAMG_7245_CFA
+* snowflake warehouse: DAMG_7245_CFA
+* Tables:
+    * metadata: CFA_META_R
+    * web scraped data: CFA_WEB_DATA_R
+
