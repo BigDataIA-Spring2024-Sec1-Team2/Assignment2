@@ -92,6 +92,9 @@ Execution Step for code/CSV2Snowflake.ipynb
    * GROBID_URL='http://localhost:8070/api/processFulltextDocument'
    * PDF_DIR_PATH='../data'
    * OUTPUT_DIR_PATH='../sample_output/'
+   * DIR_CFA_WEB = '../sample_output/'
+   * CSV_CFA_WEB = 'FinanceHub.csv'
+   * TXT_CFA_LINKS = '224_links.txt'
  
   
 ## References
