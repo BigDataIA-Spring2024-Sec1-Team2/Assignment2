@@ -154,6 +154,21 @@ Execution Step for code/CSV2Snowflake.ipynb
   - SNOWFLAKE_DATABASE='DAMG_7245_CFA_DB'
   - SNOWFLAKE_WAREHOUSE='DAMG_7245_WH_XS'
   - SNOWFLAKE_ACCOUNT_IDENTIFIER=''
+
+Execution Step for code/s3Upload.ipynb
+
+- create a folder in parent directory with name 'config'
+- add .env file in it containing following variables
+  - s3_bucket_name = ''
+  - s3_pypdf = ''
+  - s3_grobid = ''
+  - access_key = ''
+  - secret_key = ''
+
+Execution Step for code/s3metadata.ipynb
+
+- create a folder in parent directory with name 'config'
+- add .env file in it containing following variables
   - s3_bucket_name = ''
   - s3_pypdf = ''
   - s3_grobid = ''
