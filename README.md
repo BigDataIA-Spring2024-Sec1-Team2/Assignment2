@@ -124,6 +124,9 @@ Execution Step for code/CSV2Snowflake.ipynb
   - s3_grobid = ''
   - access_key = ''
   - secret_key = ''
+  - S3_META_BUCKET = ''
+  - S3_META_ACCESS_KEY = ''
+  - S3_META_SECRET_KEY = ''
 
 ## References
 
