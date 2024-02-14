@@ -1,15 +1,34 @@
+<<<<<<< Updated upstream
+=======
+## Big Data Systems and Intelligence Analytics (DAMG 7245)
+
+| Name         | Email                        | NUID    |
+| ------------ | ---------------------------- | ------- |
+| Ameya Apte   | apte.ame@northeastern.edu    | 2764540 |
+| Sayali Dalvi | dalvi.sa@northeastern.edu    | 2799803 |
+| Soeb Hussain | hussain.soe@northeastern.edu | 2747200 |
+
+# Case_Study_2
+
+>>>>>>> Stashed changes
 # Finance Professional Development Resource Database
 Big Data Systems and Intelligence Analytics (DAMG 7245) - Case_Study_2
 
 ## Overview
+
 This project aims to aggregate and make accessible finance professional development materials through a comprehensive data engineering solution. It involves creating datasets from materials listed on the CFA Institute’s website, structuring the data, extracting text from PDF files, and integrating cloud storage solutions.
 
+<<<<<<< Updated upstream
 
 ## Live application Links
 
 [![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)]()
 
 ## Problem Statement
+=======
+## Features
+
+>>>>>>> Stashed changes
 - **Data Extraction**: Utilizes web scraping to gather finance-related materials.
 - **Data Structuring**: Organizes scraped data into a coherent structure suitable for database integration.
 - **Text Extraction**: Implements algorithms to extract text from PDF documents.
@@ -19,13 +38,18 @@ This project aims to aggregate and make accessible finance professional developm
 *Include tasks from the assignment*
 
 ## Technologies Used
+<<<<<<< Updated upstream
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org/)
+=======
+
+>>>>>>> Stashed changes
 - Python for scripting and web scraping
 - Jupyter Notebook for data analysis and visualization
 - Snowflake for data storage and management
 - AWS S3 for cloud-based file storage
 
+<<<<<<< Updated upstream
 ## Data Sources
 *Include all the sources of data being used in the assignment*
 
@@ -68,11 +92,15 @@ This project aims to aggregate and make accessible finance professional developm
 *[Generate from terminal](https://www.geeksforgeeks.org/tree-command-unixlinux/)*
 
 ## How to run Application locally
+=======
+## Setup and Installation
+>>>>>>> Stashed changes
 
 1. Clone the repository to your local machine.
 2. Install the required Python libraries using `pip install -r requirements.txt`.
 3. Configure AWS S3 and Snowflake with the provided setup guide.
 
+<<<<<<< Updated upstream
 Naming Conventions: 
 * s3 bucketname: CFA-PDFs
 * snowflake DB: DAMG_7245_CFA
@@ -113,4 +141,28 @@ Ameya Apte | 30% | |
 
 
 
+=======
+Naming Conventions:
 
+- s3 bucketname: CFA-PDFs
+- snowflake DB: DAMG_7245_CFA
+- snowflake warehouse: DAMG_7245_CFA
+- Tables:
+  - metadata: CFA_META_R
+  - web scraped data: CFA_WEB_DATA_R
+
+Execution Step for code/CSV2Snowflake.ipynb
+>>>>>>> Stashed changes
+
+- create a folder in parent directory with name 'config'
+- add .env file in it containing following variables
+  - SNOWFLAKE_USER=''
+  - SNOWFLAKE_PASSWORD=''
+  - SNOWFLAKE_DATABASE='DAMG_7245_CFA_DB'
+  - SNOWFLAKE_WAREHOUSE='DAMG_7245_WH_XS'
+  - SNOWFLAKE_ACCOUNT_IDENTIFIER=''
+  - s3_bucket_name = ''
+  - s3_pypdf = ''
+  - s3_grobid = ''
+  - access_key = ''
+  - secret_key = ''
