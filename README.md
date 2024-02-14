@@ -119,6 +119,11 @@ Execution Step for code/CSV2Snowflake.ipynb
   - DIR_CFA_WEB = '../sample_output/'
   - CSV_CFA_WEB = 'FinanceHub.csv'
   - TXT_CFA_LINKS = '224_links.txt'
+  - s3_bucket_name = ''
+  - s3_pypdf = ''
+  - s3_grobid = ''
+  - access_key = ''
+  - secret_key = ''
 
 ## References
 
@@ -136,41 +141,4 @@ _List the learning outcomes from the assignment/project_
 | Sayali Dalvi | 40%            |               |
 | Ameya Apte   | 30%            |               |
 
-Naming Conventions:
 
-- s3 bucketname: CFA-PDFs
-- snowflake DB: DAMG_7245_CFA
-- snowflake warehouse: DAMG_7245_CFA
-- Tables:
-  - metadata: CFA_META_R
-  - web scraped data: CFA_WEB_DATA_R
-
-Execution Step for code/CSV2Snowflake.ipynb
-
-- create a folder in parent directory with name 'config'
-- add .env file in it containing following variables
-  - SNOWFLAKE_USER=''
-  - SNOWFLAKE_PASSWORD=''
-  - SNOWFLAKE_DATABASE='DAMG_7245_CFA_DB'
-  - SNOWFLAKE_WAREHOUSE='DAMG_7245_WH_XS'
-  - SNOWFLAKE_ACCOUNT_IDENTIFIER=''
-
-Execution Step for code/s3Upload.ipynb
-
-- create a folder in parent directory with name 'config'
-- add .env file in it containing following variables
-  - s3_bucket_name = ''
-  - s3_pypdf = ''
-  - s3_grobid = ''
-  - access_key = ''
-  - secret_key = ''
-
-Execution Step for code/s3metadata.ipynb
-
-- create a folder in parent directory with name 'config'
-- add .env file in it containing following variables
-  - s3_bucket_name = ''
-  - s3_pypdf = ''
-  - s3_grobid = ''
-  - access_key = ''
-  - secret_key = ''
