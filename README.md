@@ -18,7 +18,7 @@ This project aims to aggregate and make accessible finance professional developm
 
 ## Live application Links
 
-[![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)]()
+[![codelabs](https://codelabs-preview.appspot.com/?file_id=1_g3QZtY-Eae-6uYk91tGWhSfqPiM0bwwxelIrHwFKZY#0)]()
 
 ## Problem Statement
 
@@ -134,14 +134,4 @@ S3_META_SECRET_KEY = ''
 
 _All the external references must be listed down._
 
-## Learning Outcomes
 
-_List the learning outcomes from the assignment/project_
-
-## Team Information and Contribution
-
-| Name         | Contribution % | Contributions |
-| ------------ | -------------- | ------------- |
-| Soeb Hussain | 30%            |               |
-| Sayali Dalvi | 40%            |               |
-| Ameya Apte   | 30%            |               |
