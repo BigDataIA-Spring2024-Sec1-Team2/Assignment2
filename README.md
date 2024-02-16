@@ -18,7 +18,7 @@ This project aims to aggregate and make accessible finance professional developm
 
 ## Live application Links
 
-[![codelabs](https://codelabs-preview.appspot.com/?file_id=1_g3QZtY-Eae-6uYk91tGWhSfqPiM0bwwxelIrHwFKZY#0)]()
+[![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1_g3QZtY-Eae-6uYk91tGWhSfqPiM0bwwxelIrHwFKZY#0))
 
 ## Problem Statement
 
@@ -109,7 +109,8 @@ Execution Step for code/CSV2Snowflake.ipynb
 
 - create a folder in parent directory with name 'config'
 - add .env file in it containing following variables
-``` SNOWFLAKE_USER=''
+
+```SNOWFLAKE_USER=''
 SNOWFLAKE_PASSWORD=''
 SNOWFLAKE_DATABASE='DAMG_7245_CFA_DB'
 SNOWFLAKE_WAREHOUSE='DAMG_7245_WH_XS'
@@ -133,5 +134,3 @@ S3_META_SECRET_KEY = ''
 ## References
 
 _All the external references must be listed down._
-
-
