@@ -22,6 +22,8 @@ This project aims to aggregate and make accessible finance professional developm
 
 ## Problem Statement
 
+The task is to create two primary datasets from the 224 refresher readings listed on the Finance Institute's website and the topic outlines(attached PDF files). These readings are crucial for finance professionals looking to improve their finance skills. The datasets will serve as the backbone for an intelligent application designed for these professionals
+
 ## Features
 
 - **Data Extraction**: Utilizes web scraping to gather finance-related materials.
@@ -45,42 +47,71 @@ _Include tasks from the assignment_
 
 ## Data Sources
 
-_Include all the sources of data being used in the assignment_
+- [S3 Bucket](https://cfa-pdfs.s3.us-east-2.amazonaws.com/)
+- [Finance Website](https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#sort=%40refreadingcurriculumyear%20descending)
 
 ## Pre requisites
 
-_Define any prerequisites of softwares/knowledge base for the project_
+No specific prerequisites are required. Only installation of required packages needs to be done
 
 ## Project Structure
 
 ```
-.
-├── README.md
-├── sqlalchemy
-│   ├── 1_mysql.py
-│   ├── 2_mysql.py
-│   ├── 3_mysql.py
-│   ├── 4_snowflake_sqlalchemy.py
-│   ├── 5_snowflake.py
-│   ├── 6_snowflake.py
-│   ├── 7_snowflake.py
-│   └── requirements.txt
-├── streamlit
-│   ├── Dockerfile
-│   ├── README.md
-│   ├── main.py
-│   └── requirements.txt
-└── streamlit-multipage
-    ├── README.md
-    ├── example.env
-    ├── main.py
-    ├── pages
-    │   ├── 1_uber_nyc.py
-    │   ├── 2_Plotting_Demo.py
-    │   ├── 3_nexrad_station.py
-    │   └── 4_test.py
-    ├── requirements.txt
-    └── streamlit_colab.ipynb
+📦 Assignment2
+├─ .DS_Store
+├─ .gitignore
+├─ LICENSE
+├─ README.md
+├─ code
+│  ├─ .DS_Store
+│  ├─ s3metadata.ipynb
+│  ├─ task1_Web_Scraping_Dataset_Creation.ipynb
+│  ├─ task2_PDF_extraction.ipynb
+│  ├─ task3_Database_upload.ipynb
+│  └─ task_4_cloud_storage_integration.ipynb
+├─ data
+│  ├─ .DS_Store
+│  ├─ 2024-l1-topics-combined-2.pdf
+│  ├─ 2024-l2-topics-combined-2.pdf
+│  ├─ 2024-l3-topics-combined-2.pdf
+│  └─ images
+│     ├─ .DS_Store
+│     ├─ 2.png
+│     ├─ 3.png
+│     ├─ 4.png
+│     ├─ API.png
+│     ├─ brackets-coding-icon.png
+│     ├─ csv-file-icon.png
+│     ├─ pypdf.png
+│     ├─ soup.png
+│     └─ txt-file-icon.png
+├─ diagrams
+│  ├─ Diagrams.ipynb
+│  └─ architecture.png
+├─ grobid_client_python
+├─ requirements.txt
+├─ sample_output
+│  ├─ .DS_Store
+│  ├─ 224_link.txt
+│  ├─ FinanceHub.csv
+│  ├─ Grobid
+│  │  ├─ Grobid_RR_2024_l1_combined.txt
+│  │  ├─ Grobid_RR_2024_l2_combined.txt
+│  │  └─ Grobid_RR_2024_l3_combined.txt
+│  ├─ PyPDF
+│  │  ├─ PyPDF_RR_2024_l1_combined.txt
+│  │  ├─ PyPDF_RR_2024_l2_combined.txt
+│  │  └─ PyPDF_RR_2024_l3_combined.txt
+│  └─ metadata_output.csv
+└─ scripts
+   ├─ 224LinkScrape.ipynb
+   ├─ 224LinksScrape.py
+   ├─ PyPDF.ipynb
+   ├─ Web_Scrape.ipynb
+   ├─ pypdf.py
+   ├─ pypdf_v4.py
+   ├─ s3Upload.ipynb
+   └─ s3Upload_v2.py
 ```
 
 _You can generate the project tree using following tools_
@@ -89,7 +120,7 @@ _[Generate from terminal](https://www.geeksforgeeks.org/tree-command-unixlinux/)
 
 ## How to run Application locally
 
-## Setup and Installation
+### Setup and Installation
 
 1. Clone the repository to your local machine.
 2. Install the required Python libraries using `pip install -r requirements.txt`.
@@ -133,4 +164,7 @@ S3_META_SECRET_KEY = ''
 
 ## References
 
-_All the external references must be listed down._
+- [S3 Documentation](https://docs.aws.amazon.com/s3/?icmpid=docs_homepage_featuredsvcs)
+- [Snowflake Documentation](https://docs.snowflake.com/en/)
+- [Grobid Documentation](https://grobid.readthedocs.io/en/latest/Introduction/)
+- [CFA Institute's Website](https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#sort=%40refreadingcurriculumyear%20descending)
