@@ -94,6 +94,7 @@ _[Generate from terminal](https://www.geeksforgeeks.org/tree-command-unixlinux/)
 1. Clone the repository to your local machine.
 2. Install the required Python libraries using `pip install -r requirements.txt`.
 3. Configure AWS S3 and Snowflake with the provided setup guide.
+4. Install selenium webdriver for edge browser - Download the edge webdriver file and set the Path in environment variables
 
 Naming Conventions:
 
@@ -143,5 +144,3 @@ _List the learning outcomes from the assignment/project_
 | Soeb Hussain | 30%            |               |
 | Sayali Dalvi | 40%            |               |
 | Ameya Apte   | 30%            |               |
-
-
