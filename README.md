@@ -31,9 +31,9 @@ The task is to create two primary datasets from the 224 refresher readings liste
 - **Text Extraction**: Implements algorithms to extract text from PDF documents.
 - **Cloud Integration**: Utilizes AWS S3 for storage and Snowflake for database management.
 
-## Project Goals
+## Architecture Diagram
 
-_Include tasks from the assignment_
+![Architecture Diagram](image.png)
 
 ## Technologies Used
 
