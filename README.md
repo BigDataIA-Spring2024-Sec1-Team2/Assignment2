@@ -18,7 +18,7 @@ This project aims to aggregate and make accessible finance professional developm
 
 ## Live application Links
 
-[![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1_g3QZtY-Eae-6uYk91tGWhSfqPiM0bwwxelIrHwFKZY#0))
+[![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1_g3QZtY-Eae-6uYk91tGWhSfqPiM0bwwxelIrHwFKZY#0)
 
 ## Problem Statement
 
