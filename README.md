@@ -109,25 +109,26 @@ Execution Step for code/CSV2Snowflake.ipynb
 
 - create a folder in parent directory with name 'config'
 - add .env file in it containing following variables
-  - SNOWFLAKE_USER=''
-  - SNOWFLAKE_PASSWORD=''
-  - SNOWFLAKE_DATABASE='DAMG_7245_CFA_DB'
-  - SNOWFLAKE_WAREHOUSE='DAMG_7245_WH_XS'
-  - SNOWFLAKE_ACCOUNT_IDENTIFIER=''
-  - GROBID_URL='http://localhost:8070/api/processFulltextDocument'
-  - PDF_DIR_PATH='../data'
-  - OUTPUT_DIR_PATH='../sample_output/'
-  - DIR_CFA_WEB = '../sample_output/'
-  - CSV_CFA_WEB = 'FinanceHub.csv'
-  - TXT_CFA_LINKS = '224_links.txt'
-  - s3_bucket_name = ''
-  - s3_pypdf = ''
-  - s3_grobid = ''
-  - access_key = ''
-  - secret_key = ''
-  - S3_META_BUCKET = ''
-  - S3_META_ACCESS_KEY = ''
-  - S3_META_SECRET_KEY = ''
+``` SNOWFLAKE_USER=''
+SNOWFLAKE_PASSWORD=''
+SNOWFLAKE_DATABASE='DAMG_7245_CFA_DB'
+SNOWFLAKE_WAREHOUSE='DAMG_7245_WH_XS'
+SNOWFLAKE_ACCOUNT_IDENTIFIER=''
+
+GROBID_URL='http://localhost:8070/api/processFulltextDocument'
+PDF_DIR_PATH='../data'
+OUTPUT_DIR_PATH='../sample_output/'
+
+S3_BUCKET_NAME = 'cfa-pdfs'
+S3_PYPDF_FOLDER_NAME = 'pypdf'
+S3_GROBID_FOLDER_NAME = 'grobid'
+S3_ACCESS_KEY = ''
+S3_SECRET_KEY = ''
+S3_REGION=''
+S3_META_BUCKET = 'cfa-pdfs'
+S3_META_ACCESS_KEY = ''
+S3_META_SECRET_KEY = ''
+```
 
 ## References
 
